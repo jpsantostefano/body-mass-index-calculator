@@ -124,11 +124,4 @@ The language used is Python
 15. Scroll to the bottom of the deploy page and select the preferred deployment type
 16. Click either Enable Automatic Deploys for automatic deployment when you push updates to GitHub
 
----
-
-## Testing
-
-Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
-
-## Credits
 
