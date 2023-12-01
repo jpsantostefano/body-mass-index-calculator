@@ -81,7 +81,7 @@ This option will show a table with the records saved on the spread sheet
 
 ![History Table](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/table-history.jpg)
 
-[Google Spreadsheet Table]("https://docs.google.com/spreadsheets/d/1qZY_p_HG4QQAfTqoE2zHePFe6yACsM6PSTclSzWzjWs/edit#gid=0")
+[Google Spreadsheet Table](https://docs.google.com/spreadsheets/d/1qZY_p_HG4QQAfTqoE2zHePFe6yACsM6PSTclSzWzjWs/edit#gid=0)
 
 #### **Option 3**: *Exit*
 
@@ -98,14 +98,17 @@ In the future, I would like to:
 - To add colours and more ASCII art and formatting to the program.
 
 ## Testing
-The code has been tested by using [CI Python Linter]("https://pep8ci.herokuapp.com/")
+The code has been tested by using [CI Python Linter](https://pep8ci.herokuapp.com/)
 
 The PEP8 Linter validator initially came back with quite a few errors, however these were mainly too many blank lines and whitespace. Once these were all fixed, the validator came back with just only line too long errors.
 
-![CI Python Linter results]("https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/CI-Python-Linter.png")
+![CI Python Linter results]("https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/CI-Python-Linter.png?raw=true")
 
 ### Bugs
 There are no bugs on this program. It's not possible to break the code. If the user tries to input a wrong value, the program will always ask to insert a right value.
+
+### Fixed Bugs
+Doing the Readme I realised that I don't need to use quotes for web links, but I need it for URL images.
 
 ### Errors
 - 48: E501 line too long (96 > 79 characters)
@@ -118,7 +121,7 @@ There are no bugs on this program. It's not possible to break the code. If the u
 
 ### Languages Used
 
-- [Python]("https://en.wikipedia.org/wiki/Python_(programming_language)")
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 ### Frameworks, Libraries & Programs Used
 
@@ -130,12 +133,12 @@ There are no bugs on this program. It's not possible to break the code. If the u
 
 - [Code Institute template](https://github.com/Code-Institute-Org/p3-template) - To run the game in the terminal using Heroku.
 
-- [CI Python Linter]("https://pep8ci.herokuapp.com/") was used to test the code
+- [CI Python Linter](https://pep8ci.herokuapp.com/) - Was used to test the code
 
 ### Data Storage
 
-- [Google Drive API]("https://developers.google.com/drive/api/guides/about-sdk")
-- [Google Sheet API]("https://developers.google.com/sheets/api/guides/concepts")
+- [Google Drive API](https://developers.google.com/drive/api/guides/about-sdk)
+- [Google Sheet API](https://developers.google.com/sheets/api/guides/concepts)
 
 ## Deployment & Local Development
 
@@ -161,3 +164,6 @@ This site was deployed by completing the following steps:
 16. Click either Enable Automatic Deploys for automatic deployment when you push updates to GitHub
 
 ## Credits
+
+- [Martina Terlevic](https://www.linkedin.com/in/martinaterlevic/) - Code Institue Mentor. She gave me ideas and advices for the project and how to improve and fix it.
+- [Code Institute](https://codeinstitute.net/ie/) - The Love Sandwiches walkthrough was very helpful to learn how to import gspread and google.auth. It helped me to remind me how to deploy it on Heroku as well.
