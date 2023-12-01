@@ -4,17 +4,26 @@
 
 This application provides a simple and efficient tool to calculate Body Mass Index (BMI). By entering weight and height, the program calculates the BMI and classifies the user into one of the standard categories (for example, underweight, normal weight, overweight, obese). After obtaining the result, the user has the option to save this information to track it over time, making it easier to monitor changes in BMI and promote a healthy lifestyle.
 
-Visit the live site: [The Body-mass index](https://body-mass-index-calculator-1e646be6468f.herokuapp.com/)
+Visit the live site: [The Body-Mass Index Calculator](https://body-mass-index-calculator-1e646be6468f.herokuapp.com/)
 
-## User Experience (UX)
+## UX
 
-#### Key information for the site
+### Site Goal
 
-This program was created with the idea of ​​being able to show the user's progress over time after joined and started at the Gym-Fitness (Project 1).
+- This program was created with the idea of ​​being able to show the user's progress over time after joined and started at the Gym-Fitness (Project 1). 
+The objective is to motivate people doing excersice showing their progress.
 
-Project goals:
+### Project Goals:
 
-- To motivate people doing excersice showing their progress.
+- Create a friendly and easy going interface that allows users to enter their weight and height without complications.
+
+- Provide a clear classification of BMI and offer information about what each category means.
+
+- Provide information about which BMI category the user belongs to.
+
+- Allow users to save their BMI results to track changes and progress over time.
+
+
 
 ## Design
 
