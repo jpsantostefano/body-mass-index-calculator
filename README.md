@@ -6,14 +6,14 @@ This application provides a simple and efficient tool to calculate Body Mass Ind
 
 Visit the live site: [The Body-Mass Index Calculator](https://body-mass-index-calculator-1e646be6468f.herokuapp.com/)
 
-## UX
+# UX
 
-### Site Goal
+## Site Goal
 
 - This program was created with the idea of ​​being able to show the user's progress over time after joined and started at the Gym-Fitness (Project 1). 
 The objective is to motivate people doing excersice showing their progress.
 
-### Project Goals:
+## Project Goals:
 
 - Create a friendly and easy going interface that allows users to enter their weight and height without complications.
 
@@ -23,35 +23,33 @@ The objective is to motivate people doing excersice showing their progress.
 
 - Allow users to save their BMI results to track changes and progress over time.
 
-
-
 ## Design
 
 ### Flowchart
 
 ![Flowchart](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/Flowchart.jpeg)
 
-### Features
+## Features
 
-#### Existing Features
+## Current Features
 
-**Welcome screen**
+### **Welcome Screen**
 
 - The user is welcomed to the program and ask to input their name.
 
 ![Welcome screen](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/welcome.jpg)
 
-**Main Menu**
+### **Main Menu**
 
-- The user has to select one of the three options. The options are "Calculate the body-mass index", "see your history" or "exit". 
+- The user has to input one of the three options. The options are "Calculate the body-mass index", "see your history" or "exit". 
 
 ![Select option](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/main-menu.jpg)
 
-- If the user input an invalid option, it will show a message saying "Please, insert a valid option"
+- If the user input an invalid option, it will show a message saying "Please, insert a valid option". The valid options are 1, 2, or 3.
 
 ![Invalid option](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/invalid-mainmenu.jpg)
 
-**Calculate body-mass index**
+#### **Option 1**: *Calculate body-mass index*
 
 - When the user select the first option, the program will ask for their weight and their height.
 
@@ -61,8 +59,8 @@ The objective is to motivate people doing excersice showing their progress.
 
 ![Invalid value](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/invalid-calculator.jpg)
 
-- After inserting the two values, the program will calculate the body-mass index and show a message saying the index and the category which the user is in.
-- At the same time, it will show a message if the user wants to save this record on a spread sheet table linked with the program. It will save the actual date and the body-mass index.
+- After inserting the two values, the program will calculate the body-mass index "(weight/(height/100)" and show a message saying the index and the category which the user is in.
+- At the same time, it will show a message asking if the user wants to save this record on a spread sheet table linked with the program. It will save the actual date and the body-mass index.
 
 ![Calculator](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/result.jpg)
 
@@ -72,13 +70,13 @@ The objective is to motivate people doing excersice showing their progress.
 
 ![Invalid record](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/invalid-record.jpg)
 
-**See history**
+#### **Option 2**: *See history*
 
 - This option will show a table with the records saved on the spread sheet
 
 ![History Table](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/table-history.jpg)
 
-**Exit**
+#### **Option 3**: *Exit*
 
 - This option will close the program.
 
