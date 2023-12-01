@@ -80,8 +80,6 @@ The objective is to motivate people doing excersice showing their progress.
 
 - This option will close the program.
 
----
-
 ### Features Left to Implement
 
 In the future, I would like to:
@@ -92,7 +90,7 @@ In the future, I would like to:
 
 - To add colours and more ASCII art and formatting to the program.
 
----
+## Testing
 
 ## Technologies Used
 

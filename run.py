@@ -37,33 +37,30 @@ while option != 3:
                 break
             except ValueError:
                 print("\nPlease, insert a right value\n")
-        while True:    
+        while True:
             try:
                 height = float(input("What's your height in cm?: "))
                 break
             except ValueError:
                 print("\nPlease, insert a right value\n")
-                
-        imc = round(weight/((height/100)**2),2)
+        imc = round(weight/((height/100)**2), 2)
         if imc < 18.49:
             print(f"\nYour body-mass index is {imc} and you are in the lLOW WEIGHT category\n")
-        elif imc >= 18.5 and imc <=24.49:
+        elif imc >= 18.5 and imc <= 24.49:
             print(f"\nYour body-mass index is {imc} and you are in the NORMAL RANGE category\n")
         elif imc >= 25 and imc <= 29.99:
             print(f"\nYour body-mass index is {imc} and you are in the OVERWEIGHT category\n")
         else:
-            print(f"\nYour body-mass index is {imc} and you are in the OBESE category\n") 
+            print(f"\nYour body-mass index is {imc} and you are in the OBESE category\n")
         print("****BODY-MASS INDEX CLASIFICATION****\n")
         print("Low weight: Less than 18.5")
         print("Normal range: 18.5 to 24.99")
         print("Overweight: 25 to 29.99")
         print("Obese: more than 30\n")
 
-        
-        while record != "n" and record !="y":
+        while record != "n" and record != "y":
             record = input("Do you want to add this record? Y/N: ")
             record = record.lower()
-            
             if record == "y":
                 day = date.today()
                 today = day.strftime("%d/%m/%Y")
@@ -77,16 +74,15 @@ while option != 3:
                 break
             else:
                 print("\nInvalid option. Please write the letter 'Y' to save the record or 'N' to go back to the main menu\n")
-            
 
     elif option == "2":
         data = list.get_all_values()
         data = data[1:]
         print("   DATE           BODY-MASS INDEX")
         for row in data:
-            print(row[0],"          ",row[1])
+            print(row[0], "          ", row[1])
     elif option == "3":
-        break    
+        break
     else:
         print("\nPlease, insert a valid option\n")
 
