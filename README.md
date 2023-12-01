@@ -121,13 +121,13 @@ The code has been tested by using [CI Python Linter](https://pep8ci.herokuapp.co
 
 The PEP8 Linter validator initially came back with quite a few errors, however these were mainly too many blank lines and whitespace. Once these were all fixed, the validator came back with just only line too long errors.
 
-![CI Python Linter results]("https://raw.githubusercontent.com/jpsantostefano/body-mass-index-calculator/main/docs/features/python-linter.png")
+![CI Python Linter results](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/python-linter.png)
 
 ### Bugs
 There are no bugs on this program. It's not possible to break the code. If the user tries to input a wrong value, the program will always ask to insert a right value.
 
 ### Fixed Bugs
-Doing the Readme I realised that I don't need to use quotes for web links, but I need it for URL images.
+Doing the Readme I realised that I don't need to use quotes for URLs
 
 ### Errors
 - 48: E501 line too long (96 > 79 characters)
