@@ -86,11 +86,11 @@ The objective is to motivate people doing excersice showing their progress.
 
 In the future, I would like to:
 
-- Add a calories and protein counter consumed per day.
+- To add a spreadsheet in which the user enters the meals eaten during the day and automatically calculates and showing the total of calories and proteins ingested.
 
-- Add colours to the program.
+- To include educational information about the importance of BMI and tips for maintaining a healthy weight.
 
-- Add more ASCII art and formatting to the program.
+- To add colours and more ASCII art and formatting to the program.
 
 ---
 
@@ -98,17 +98,22 @@ In the future, I would like to:
 
 ### Languages Used
 
-The language used is Python
+- [Python]("https://en.wikipedia.org/wiki/Python_(programming_language)")
 
 ### Frameworks, Libraries & Programs Used
 
-[Git](https://git-scm.com/) - For version control.
+- [Gitpod](https://www.gitpod.io/) To create my workspace
 
-[GitHub](https://github.com/) - To save and store the files for the website.
+- [GitHub](https://github.com/) - To save and store the files for the website.
 
-[Heroku](https://id.heroku.com/) - To deploy the App.
+- [Heroku](https://id.heroku.com/) - To deploy the App.
 
-[Code Institute template](https://github.com/Code-Institute-Org/p3-template) - To run the game in the terminal using Heroku.
+- [Code Institute template](https://github.com/Code-Institute-Org/p3-template) - To run the game in the terminal using Heroku.
+
+### Data Storage
+
+- [Google Drive API]("https://developers.google.com/drive/api/guides/about-sdk")
+- [Google Sheet API]("https://developers.google.com/sheets/api/guides/concepts")
 
 ## Deployment & Local Development
 
