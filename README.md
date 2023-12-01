@@ -1,6 +1,8 @@
 # THE BODY-MASS INDEX CALCULATOR
 
-The body-mass index calculator program was created with Python programming language which has been deployed on Heroku.
+![Am I responsive](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/bmic-aimresponsive.png?raw=true)
+
+This application provides a simple and efficient tool to calculate Body Mass Index (BMI). By entering weight and height, the program calculates the BMI and classifies the user into one of the standard categories (for example, underweight, normal weight, overweight, obese). After obtaining the result, the user has the option to save this information to track it over time, making it easier to monitor changes in BMI and promote a healthy lifestyle.
 
 Visit the live site: [The Body-mass index](https://body-mass-index-calculator-1e646be6468f.herokuapp.com/)
 
