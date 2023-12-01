@@ -6,11 +6,30 @@ This application provides a simple and efficient tool to calculate Body Mass Ind
 
 Visit the live site: [The Body-Mass Index Calculator](https://body-mass-index-calculator-1e646be6468f.herokuapp.com/)
 
+# Table of Contents
++ [UX](#ux "UX")
+    + [Site Goal](#site-goal "Site Goals")
+    + [Project Goals](#project-goals "Project Goals")
+    + [Audience](#audience "Audience")
+    + [Design](#design)
++ [Features](#features)
+    + [Current Features](#current-features)
++ [Testing](#testing)
++ [Bugs](#bugs)
+    + [Fixed Bugs](#fixed-bugs)
+    + [Errors](#errors)
++ [Technologies Used](#technologies-used)
+    + [Languages](#languages)
+    + [Frameworks, Libraries and Programs used](#frameworks-libraries-programs-used)
+    + [Data Storage](#data-storage)
++ [Deployment](#deployment)
++ [Credits](#credits)
+
 # UX
 
 ## Site Goal
 
-- This program was created with the idea of ​​being able to show the user's progress over time after joined and started at the Gym-Fitness (Project 1). 
+This program was created with the idea of ​​being able to show the user's progress over time after joined and started at the Gym-Fitness (Project 1). 
 The objective is to motivate people doing excersice showing their progress.
 
 ## Project Goals:
@@ -35,15 +54,15 @@ The objective is to motivate people doing excersice showing their progress.
 
 ## Features
 
-## Current Features
+### Current Features
 
-### **Welcome Screen**
+#### **Welcome Screen**
 
 The user is welcomed to the program and ask to input their name.
 
 ![Welcome screen](https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/welcome.jpg)
 
-### **Main Menu**
+#### **Main Menu**
 
 The user has to input one of the three options. The options are "Calculate the body-mass index", "see your history" or "exit". 
 
@@ -102,7 +121,7 @@ The code has been tested by using [CI Python Linter](https://pep8ci.herokuapp.co
 
 The PEP8 Linter validator initially came back with quite a few errors, however these were mainly too many blank lines and whitespace. Once these were all fixed, the validator came back with just only line too long errors.
 
-![CI Python Linter results]("https://github.com/jpsantostefano/body-mass-index-calculator/blob/main/docs/features/CI-Python-Linter.png?raw=true")
+![CI Python Linter results]("https://raw.githubusercontent.com/jpsantostefano/body-mass-index-calculator/main/docs/features/python-linter.png")
 
 ### Bugs
 There are no bugs on this program. It's not possible to break the code. If the user tries to input a wrong value, the program will always ask to insert a right value.
@@ -119,7 +138,7 @@ Doing the Readme I realised that I don't need to use quotes for web links, but I
 
 ## Technologies Used
 
-### Languages Used
+### Languages
 
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
@@ -140,9 +159,7 @@ Doing the Readme I realised that I don't need to use quotes for web links, but I
 - [Google Drive API](https://developers.google.com/drive/api/guides/about-sdk)
 - [Google Sheet API](https://developers.google.com/sheets/api/guides/concepts)
 
-## Deployment & Local Development
-
-### Deployment
+## Deployment
 
 This site was deployed by completing the following steps:
 
